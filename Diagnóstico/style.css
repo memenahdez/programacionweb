@@ -26,12 +26,20 @@ main{
     border-radius: 15px;
 }
 
+ul {
+  list-style-type: none;
+  padding-left: 5% ;
+}
+
+
 .navbar ul li {
   display: block;
   text-align: center;
   float: left;
   margin: 0;
   padding: 0;
+  text-decoration: none;
+ 
 
 }
 .logo img{
@@ -47,6 +55,14 @@ main{
     text-decoration: none;
   }
   
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #4CAF50;
+  }
 
 .section-two{
    
