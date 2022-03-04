@@ -1,0 +1,123 @@
+.navtop {
+  background-color: transparent;
+}
+.navbar ul li {
+  display:list-item;
+  text-align: center;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+ 
+
+}
+
+header{
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-top{
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  width: 100%;
+  height: 90px;
+  opacity: 85%;
+}
+
+.menu{
+  float: right;
+  padding: 10px 80px 0px 0px;
+}
+
+.logo{
+  width: 30%;
+  display: inline-block;
+  padding: 22px 0px 22px 80px;
+
+}
+
+ul li a {
+  padding: 0 40px;
+}
+
+ul
+{
+margin:0;
+padding-top: 30px;
+list-style-type: none;
+overflow: hidden;
+
+}
+li {
+  float: left;
+  font-size: 22px;
+}
+
+li a {
+  display: block;
+  color: #707070;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+li a:hover {
+  color: black
+}
+
+.productos {
+  background-color:#fff4d5;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+footer ul li {
+  list-style: none;
+  display: block;
+  }
+  footer ul  {
+  padding-left: 0;
+  }
+  footer ul  li a{
+  text-decoration: none;
+  color: grey;
+  text-decoration:none;
+  }
+  a:hover {
+  text-decoration: none;
+  color: #B68482 !important;
+  
+  }
+
+  .box02{
+    text-align: center;
+    align-items: center;
+  }
+  .video{
+    position:relative;
+  }
+
+  .quote{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(187, 248, 248);
+  }
+  .quote02{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(247, 232, 204);
+  }
+
+  footer {
+    padding: 3%;
+    background-color: #d1d1d1;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+  }
+
+  .final {
+    align-items: center;
+    padding: 14px 16px;
+  }
