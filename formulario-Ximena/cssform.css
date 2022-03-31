@@ -1,0 +1,30 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.contenedor{
+    background-color:rgb(178, 223, 193);
+    border-radius: 10px;
+    position: absolute;
+    border: solid 0;
+    padding: 100px;
+    margin: 50px 600px;
+}
+
+
+#bEnviar{
+background-color: darkgrey;
+border: solid 0;
+color: white;
+padding: 10px;
+border-radius: 20px;
+margin-left: 80px;
+}
+
+.errores{
+    display: none;
+    background-color: rgb(232, 250, 255);
+    border-radius: 20px;
+    padding: 10px;
+}
