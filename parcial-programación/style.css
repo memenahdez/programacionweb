@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+
+}
+body{
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+
+.logo{
+    margin: 0px 660px;
+}
+.container{
+    text-align:center;
+    margin: 10px 550px;
+    padding: 25px 100px;
+    border: 5px solid;
+    color:white;
+    background-color: rgb(47, 57, 79);
+    border-radius: 50px;
+    border-color: rgb(84, 124, 211);
+}
+
+.vaccine {
+    width: 200px;
+    height: 200px;
+}
+
+.one, .two {
+    font-weight: bold;
+}
+
+a, h4{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.button{
+    background-color:rgb(84, 124, 211);
+    padding: 10px 12px;
+    border-radius: 25px;
+}
+
+p{
+    color: black;
+    text-align: center;
+}
+
+footer {
+    background-color:rgb(84, 124, 211) ;
+    padding: 400px 300pz;
+}
+
+h4{
+    text-align: center;
+    padding: 20px 0px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Control de vacunación</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <img class="logo" src="https://mivacuna.salud.gob.mx/img/gmx.png">
+        <header class="container">
+            
+            <img class="vaccine" src="https://help.unhcr.org/ecuador/wp-content/uploads/sites/34/2021/04/noun_schedule_2490886.png">
+            <h1><bold>Cartilla de vacunación</bold></h1>
+            <label for="name"> Nombre(s)*:</label> <input type="text" id="name" name="name" required  minlength="4" maxlength="8" size="15" placeholder="pon tu nombre"><br><br>
+            <label for="name"> Apellidos*:</label> <input type="text" id="name" name="name" required  minlength="4" maxlength="8" size="20" placeholder="pon tu apellido"><br><br>
+            <label class="one">Seleccione su sexo*:</label> <br><br>
+            <input type="radio" id="Femenino" name="F" value="Femenino"> <label for="huey">Femenino</label>
+            <input type="radio" id="Masculino" name="M" value="Masculino"> <label for="huey">Masculino</label> <br> <br>
+            <label class="two">Estado de la república*:</label>
+      <select>
+        <option selected disabled value="">Escoge uno...</option><br>
+        <option>Aguascalientes</option>
+        <option>Estado de Mexico</option>
+        <option>Puebla</option>
+        <option>Veracruz</option>
+        <option>Campeche</option>
+        <option>Yucatán</option>
+        <option>Veracruz</option>
+        <option>Quintana Roo</option>
+        <option>No se encuentra en la lista</option>
+      </select><br><br>
+
+      <label class="two">CURP*:</label><input type="text" required  minlength="4" maxlength="8" size="15"><br><br>
+
+                <label class="two">Tienes hijos?*:</label>
+      <select>
+        <option selected disabled value="">Escoge uno...</option><br>
+        <option>Si</option>
+        <option>No</option>
+      </select><br><br>
+
+      <label>En caso de tener hijos,<br> especifique cuantos:</label><input type="number" min="1" max="10"> <br><br>
+      <label class="two">No. de Dosis:</label><input type="text" required  minlength="4" maxlength="8" size="5"><br><br>
+
+      <label class="one">Seleccione cual fue su primera dosis*:</label> <br><br>
+            <input type="radio" id="Femenino" name="F" value="Femenino"> <label for="huey">Astrazeneca</label><br><br>
+            <input type="radio" id="Masculino" name="M" value="Masculino"> <label for="huey">Pfizer</label> <br> <br>
+            <input type="radio" id="Masculino" name="M" value="Masculino"> <label for="huey">Moderna</label> <br> <br>
+            <input type="radio" id="Masculino" name="M" value="Masculino"> <label for="huey">Ninguna de las anteriores</label> <br> <br>
+
+
+            <a class="button" href="">Enviar formulario</a>
+
+            
+
+
+        </header>
+    </body>
+    <p>La aplicación de la Política Nacional de Vacunación es de carácter público, ajena a cualquier partido político. Queda prohibido su uso para fines distintos a los establecidos.</p>
+    <footer>
+        <h4>Gobierno de México</h4>
+    </footer>
+</html>
